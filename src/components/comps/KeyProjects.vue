@@ -31,7 +31,7 @@
             </p>
             <RouterLink
               to="/project"
-              class="button py-3 flex items-center justify-center w-full font-semibold rounded-md bg-black hover:bg-ORANGE hover:text-black text-white transition-all duration-500"
+              class="button py-3 flex items-center justify-center w-full font-semibold rounded-md bg-white hover:bg-ORANGE hover:text-white text-black transition-all duration-500"
               >View Project
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@
             </p>
             <RouterLink
               to="/project"
-              class="button py-3 flex items-center justify-center w-full font-semibold rounded-md bg-black hover:bg-ORANGE hover:text-black text-white transition-all duration-500"
+              class="button py-3 flex items-center justify-center w-full font-semibold rounded-md bg-white hover:bg-ORANGE hover:text-white text-black transition-all duration-500"
               >View Project
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@
             </p>
             <RouterLink
               to="/project"
-              class="button py-3 flex items-center justify-center w-full font-semibold rounded-md bg-black hover:bg-ORANGE hover:text-black text-white transition-all duration-500"
+              class="button py-3 flex items-center justify-center w-full font-semibold rounded-md bg-white hover:bg-ORANGE hover:text-white text-black transition-all duration-500"
               >View Project
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -117,15 +117,14 @@ export default {
 <style>
 .card {
   border-radius: 9px;
-  background: #f4a261;
-  box-shadow: 5px 5px 12px #dc9257, -5px -5px 12px #ffb26b;
+  box-shadow: inset 5px 5px 12px #d4d4d4, inset -5px -5px 12px #ffffff;
 }
 
 .button {
   height: 40px;
   border-radius: 9px;
-  background: #f4a261;
-  box-shadow: 5px 5px 12px #dc9257, -5px -5px 12px #ffb26b;
+  background: #ececec;
+  box-shadow: 5px 5px 12px #d4d4d4, -5px -5px 12px #ffffff;
 }
 
 .button:hover {

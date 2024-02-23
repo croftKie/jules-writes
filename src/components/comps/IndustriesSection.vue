@@ -24,10 +24,10 @@
           </div>
           <div class="grid grid-cols-1 gap-2 mt-12 sm:grid-cols-3 lg:mt-20">
             <div
-              class="icard transition-all duration-500 cursor-default bg-white hover:bg-ORANGE hover:shadow-xl m-2 p-4 relative z-40 group"
+              class="icard transition-all duration-500 cursor-default bg-white m-2 p-4 relative z-40 group"
             >
               <div
-                class="absolute bg-orange-500/50 top-0 left-0 w-24 h-1 z-30 transition-all duration-200 group-hover:bg-white group-hover:w-1/2"
+                class="absolute bg-orange-500/50 top-0 left-0 w-24 h-1 z-30 transition-all duration-200 group-hover:bg-ORANGE group-hover:w-1/2"
               ></div>
               <div class="py-2 px-9 relative">
                 <img class="h-16" src="../../assets/online-shop.png" alt="" />
@@ -47,10 +47,10 @@
               </div>
             </div>
             <div
-              class="icard transition-all duration-500 cursor-default bg-white hover:bg-ORANGE hover:shadow-xl m-2 p-4 relative z-40 group"
+              class="icard transition-all duration-500 cursor-default bg-white m-2 p-4 relative z-40 group"
             >
               <div
-                class="absolute bg-orange-500/50 top-0 left-0 w-24 h-1 z-30 transition-all duration-200 group-hover:bg-white group-hover:w-1/2"
+                class="absolute bg-orange-500/50 top-0 left-0 w-24 h-1 z-30 transition-all duration-200 group-hover:bg-ORANGE  group-hover:w-1/2"
               ></div>
               <div class="py-2 px-9 relative">
                 <img class="h-16" src="../../assets/programmer.png" alt="" />
@@ -71,10 +71,10 @@
               </div>
             </div>
             <div
-              class="icard transition-all duration-500 cursor-default bg-white hover:bg-ORANGE hover:shadow-xl m-2 p-4 relative z-40 group"
+              class="icard transition-all duration-500 cursor-default bg-white m-2 p-4 relative z-40 group"
             >
               <div
-                class="absolute bg-orange-500/50 top-0 left-0 w-24 h-1 z-30 transition-all duration-200 group-hover:bg-white group-hover:w-1/2"
+                class="absolute bg-orange-500/50 top-0 left-0 w-24 h-1 z-30 transition-all duration-200 group-hover:bg-ORANGE  group-hover:w-1/2"
               ></div>
               <div class="py-2 px-9 relative">
                 <img

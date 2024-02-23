@@ -2,21 +2,23 @@
   <section class="h-120 mt-24 flex items-center justify-center w-full">
     <div class="flex flex-col w-full">
       <div
-        class="flex flex-col lg:flex-row items-center justify-start gap-10 mb-24"
+        class="flex flex lg:flex-row items-center justify-center gap-10 mb-24"
       >
-        <div class="hero mb-8 ml-36 w-5/6 lg:mb-0 lg:w-2/5 p-[5%]">
+        <div class="hero mb-8 w-5/6 lg:mb-0 lg:w-2/5 p-[5%]">
           <h1 class="text-3xl font-semibold mb-2 text-justify">
-            <span class="text-ORANGE">Hi. I'm Jules!</span>
+            <span class="text-ORANGE">Welcome to Jules Studio.</span>
           </h1>
           <h2 class="text-2xl font-semibold mb-2 text-left">
-            Expert Copywriter & Social Media Manager
+            Expert Copywriting, Social Media Management, and AI Content Creation.
           </h2>
           <p class="text-justify font-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            molestias voluptatibus ratione facere voluptatem beatae eligendi
-            reprehenderit excepturi, unde tempore hic eius architecto quas
-            voluptas esse tempora quis! Ratione, neque?
+            Are you searching for captivating content that engages your audience and boosts your brand's visibility? 
+            <br/><br/>
+            Look no further. I'm Julia, a Copywriter and Social Media Manager with over five years of experience specializing in SEO, article writing, blogs, and social media content.
           </p>
+        </div>
+        <div class="mb-8 w-5/6 lg:mb-0 lg:w-2/5 p-[1%] flex justify-center">
+          <img class="hero w-[70%] rounded-md" src="../../assets/hero.jpg" alt="">
         </div>
       </div>
       <div
@@ -88,6 +90,6 @@ export default {
 .item {
   border-radius: 9px;
   background: #f4a261;
-  box-shadow: 5px 5px 12px #dc9257, -5px -5px 12px #ffb26b;
+  box-shadow: inset 5px 5px 12px #dc9257, inset -5px -5px 12px #ffb26b;
 }
 </style>

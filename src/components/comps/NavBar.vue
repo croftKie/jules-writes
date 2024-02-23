@@ -9,8 +9,7 @@
             to="/"
             class="brand flex-no-grow flex-no-shrink relative p-2 font-bold text-BLACK no-underline flex items-center gap-10"
           >
-            <img class="h-10" src="../../assets/online.png" alt="" />
-            <p class="text-xl">Jules Writes | Expert Copywriter</p></RouterLink
+            <p class="text-3xl">Jules Studio</p></RouterLink
           >
         </div>
         <button
@@ -38,12 +37,12 @@
         <div class="lg:flex lg:items-stretch lg:justify-end ml-auto gap-5">
           <RouterLink
             to="/projects"
-            class="button2 flex-no-grow flex-no-shrink relative py-1 px-4 leading-normal font-bold text-BLACK no-underline flex items-center"
+            class="button2 flex-no-grow flex-no-shrink relative py-1 px-4 leading-normal font-bold text-BLACK no-underline flex items-center hover:bg-ORANGE hover:text-white"
             >My Projects</RouterLink
           >
           <RouterLink
             to="/about"
-            class="button2 flex-no-grow flex-no-shrink relative py-1 px-4 leading-normal font-bold text-BLACK no-underline flex items-center"
+            class="button2 flex-no-grow flex-no-shrink relative py-1 px-4 leading-normal font-bold text-BLACK no-underline flex items-center hover:bg-ORANGE hover:text-white"
             >About Me</RouterLink
           >
         </div>

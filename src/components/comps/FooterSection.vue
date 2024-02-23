@@ -1,13 +1,16 @@
 <template>
   <div class="mx-auto mt-12">
     <div class="flex items-center justify-center p-12">
-      <div class="formCard p-10 mx-auto w-full max-w-[550px]">
+      <div class="formCard p-10 mx-auto w-full max-w-[550px] flex flex-col items-center">
         <p
-          class="text-4xl font-semibold tracking-widest text-g uppercase text-black"
+          class="text-4xl font-semibold tracking-widest text-g uppercase text-black text-center"
         >
           Get in Touch
         </p>
-        <form class="mt-8">
+        <p class="mt-4 text-center w-[80%]">
+          Let's journey towards achieving your content goals together. Your success is my priority, and I can't wait to be a part of it.
+        </p>
+        <form class="mt-8 w-full">
           <div class="mb-5">
             <label
               for="name"
@@ -74,7 +77,7 @@
           </div>
           <div>
             <button
-              class="hover:shadow-form rounded-md bg-ORANGE py-3 px-8 text-base font-semibold text-neutral-100 outline-none"
+              class="button2 rounded-md bg-WHITE px-8 text-base font-semibold text-neutral-100 outline-none hover:bg-ORANGE hover:text-white"
               @click="handleSubmit"
             >
               Submit
@@ -96,14 +99,14 @@
         <li>
           <RouterLink
             to="/projects"
-            class="button2 flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal font-bold text-BLACK no-underline flex items-center hover:text-WHITE"
+            class="button flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal font-bold text-BLACK no-underline flex items-center hover:bg-ORANGE hover:text-white"
             >My Projects</RouterLink
           >
         </li>
         <li>
           <RouterLink
             to="/about"
-            class="button2 flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal font-bold text-BLACK no-underline flex items-center hover:text-WHITE"
+            class="button flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal font-bold text-BLACK no-underline flex items-center hover:bg-ORANGE hover:text-white"
             >About Me</RouterLink
           >
         </li>
